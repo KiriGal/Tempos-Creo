@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<watches>
+  <model>
+    <image>./img/watch_1.png</image>
+    <description>Часы "Midnight Sky" - это воплощение элегантности и загадочности. Их уникальный дизайн и превосходное качество изготовления делают их настоящим произведением искусства на вашем запястье.</description>
+    <name>Azure Majesty</name>
+    <price>2000</price>
+  </model>
+  <model>
+    <image>./img/watch_2.png</image>
+    <description>"Prism Fusion" - это часы для ценителей яркости и смелости. Они подчеркнут вашу индивидуальность и добавят яркие нотки в ваш образ.</description>
+    <name>Prism Fusion</name>
+    <price>5400</price>
+  </model>
+  <model>
+    <image>./img/watch_3.png</image>
+    <description>Часы "Midnight Square" - это современный аксессуар, который привлечет внимание окружающих своим стильным и элегантным дизайном, подчеркивая вашу индивидуальность и безупречный вкус.</description>
+    <name>Midnight Square</name>
+    <price>19200</price>
+  </model>
+  <model>
+    <image>./img/watch_4.png</image>
+    <description>Часы "Enchanting Elegance" - это воплощение изысканности и очарования. Их уникальный дизайн и превосходное качество изготовления делают их настоящим произведением искусства на вашем запястье.</description>
+    <name>Enchanting Elegance</name>
+    <price>7546</price>
+  </model>
+
+  <model>
+    <image>./img/watch_1.png</image>
+    <description>Часы "Midnight Sky" - это воплощение элегантности и загадочности. Их уникальный дизайн и превосходное качество изготовления делают их настоящим произведением искусства на вашем запястье.</description>
+    <name>Azure Majesty</name>
+    <price>2000</price>
+  </model>
+  <model>
+    <image>./img/watch_2.png</image>
+    <description>"Prism Fusion" - это часы для ценителей яркости и смелости. Они подчеркнут вашу индивидуальность и добавят яркие нотки в ваш образ.</description>
+    <name>Prism Fusion</name>
+    <price>5400</price>
+  </model>
+  <model>
+    <image>./img/watch_3.png</image>
+    <description>Часы "Midnight Square" - это современный аксессуар, который привлечет внимание окружающих своим стильным и элегантным дизайном, подчеркивая вашу индивидуальность и безупречный вкус.</description>
+    <name>Midnight Square</name>
+    <price>19200</price>
+  </model>
+  <model>
+    <image>./img/watch_4.png</image>
+    <description>Часы "Enchanting Elegance" - это воплощение изысканности и очарования. Их уникальный дизайн и превосходное качество изготовления делают их настоящим произведением искусства на вашем запястье.</description>
+    <name>Enchanting Elegance</name>
+    <price>7546</price>
+  </model>
+
+  <model>
+    <image>./img/watch_1.png</image>
+    <description>Часы "Midnight Sky" - это воплощение элегантности и загадочности. Их уникальный дизайн и превосходное качество изготовления делают их настоящим произведением искусства на вашем запястье.</description>
+    <name>Azure Majesty</name>
+    <price>2000</price>
+  </model>
+  <model>
+    <image>./img/watch_2.png</image>
+    <description>"Prism Fusion" - это часы для ценителей яркости и смелости. Они подчеркнут вашу индивидуальность и добавят яркие нотки в ваш образ.</description>
+    <name>Prism Fusion</name>
+    <price>5400</price>
+  </model>
+  <model>
+    <image>./img/watch_3.png</image>
+    <description>Часы "Midnight Square" - это современный аксессуар, который привлечет внимание окружающих своим стильным и элегантным дизайном, подчеркивая вашу индивидуальность и безупречный вкус.</description>
+    <name>Midnight Square</name>
+    <price>19200</price>
+  </model>
+  <model>
+    <image>./img/watch_4.png</image>
+    <description>Часы "Enchanting Elegance" - это воплощение изысканности и очарования. Их уникальный дизайн и превосходное качество изготовления делают их настоящим произведением искусства на вашем запястье.</description>
+    <name>Enchanting Elegance</name>
+    <price>7546</price>
+  </model>
+</watches>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tempus Creo</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header_body">
+                <div class="header_logo">
+                    <a href="index.html" class="header_logo_link">
+                        <img src="./icons/logo.svg" alt="Tempus Creo" class="header_logo_pic">
+                    </a>
+                </div>
+                <div class="header_burger">
+                    <img src="./icons/menuBurger.svg" alt="Меню" class="header_burger-pic">
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="catalog.html" class="header_link">Часы</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="about.html" class="header_link">О нас</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="login.html" class="header_link">
+                                <img src="../icons/login.svg" alt="Логин" class="header_pic">
+                                <span class="header_hide">Вход / Регистрация</span>
+                            </a>
+                        </li>
+                        <li class="header_item">
+                            <a href="basket.html" class="header_link">
+                                <img src="../icons/basket.svg" alt="Корзина" class="header_pic">
+                                <span class="header_hide">Корзина</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="login">
+                <div class="login_back">
+                    <div class="login_switch">
+                        <button class="switch_button active">Вход</button>
+                        <button class="switch_button">Создание аккаунта</button>
+                    </div>
+                    <h1 class="login_title">С возращением</h1>
+                    <form class="login_form">
+                        <input type="email" class="login_input" placeholder="Почта">
+                        <input type="password" class="login_input" placeholder="Пароль">
+                        <button class="login_button">Вход</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+            <div class="footer_item">
+                <img src="./icons/logo.svg" alt="logo" class="footer_image">
+            </div>
+            <div class="footer_item">
+                <h3 class="footer_title">&#169; Copyright 2024 wolumenzeit - All rights reserved.</h3>
+            </div>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

@@ -308,7 +308,7 @@ img {
 .main .container .features .features_item .features_body .features_body_item .features_block .features_block_item .features_paragraph {
   font-size: 2vh;
   color: #939393;
-  line-height: 14px;
+  line-height: 1.3em;
 }
 .main .container .features .features_item .features_body .features_body_item .features_title {
   font-size: 3vh;

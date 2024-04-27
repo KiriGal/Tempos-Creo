@@ -709,15 +709,18 @@ img {
   }
   .main .container .features .features_item {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .main .container .features .features_item .features_title {
     font-size: 4vh;
+    justify-self: center;
   }
   .main .container .features .features_item .features_body {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
   }

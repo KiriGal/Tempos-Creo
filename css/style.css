@@ -723,6 +723,7 @@ img {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
+    width: 96%;
   }
   .main .container .features .features_item .features_body .features_body_item {
     flex-basis: 49%;

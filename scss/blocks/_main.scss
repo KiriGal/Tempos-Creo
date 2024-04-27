@@ -567,6 +567,7 @@
                     justify-content: center;
                     align-items: center;
 
+
                     .features_title {
                         font-size: 4vh;
                         justify-self: center;
@@ -577,6 +578,7 @@
                         flex-direction: column;
                         flex-wrap: nowrap;
                         justify-content: space-between;
+                        width: 96%;
 
                         .features_body_item {
                             flex-basis: 49%;

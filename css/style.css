@@ -739,7 +739,7 @@ img {
   .main .container .features .features_item .features_body .features_body_item .features_paragraph {
     font-size: 2vh;
     color: #939393;
-    line-height: 14px;
+    line-height: 14em;
   }
   .main .container .features .features_item .features_body .features_body_item .features_image {
     transform: scale(1.2);

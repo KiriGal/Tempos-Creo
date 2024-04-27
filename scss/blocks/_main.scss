@@ -59,6 +59,7 @@
             flex-direction: column;
             justify-content: center;
             margin-top: 60px;
+            margin-bottom: 20px;
 
             .features_item {
                 display: flex;
@@ -102,7 +103,7 @@
                         .features_paragraph {
                             font-size: 2vh;
                             color: #939393;
-                            line-height: 14px;
+                            line-height: 20px;
                         }
                         .features_image {
                             transform: scale(1.2);
@@ -595,7 +596,7 @@
                             .features_paragraph {
                                 font-size: 2vh;
                                 color: #939393;
-                                line-height: 14em;
+                                line-height: 14px;
                             }
                             .features_image {
                                 transform: scale(1.2);

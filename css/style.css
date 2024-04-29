@@ -715,7 +715,7 @@ img {
     align-items: center;
   }
   .main .container .features .features_item .features_title {
-    font-size: 4vh;
+    font-size: 3vh;
     justify-self: center;
   }
   .main .container .features .features_item .features_body {
@@ -911,7 +911,7 @@ img {
     color: #dedede;
     border-bottom: 1px solid #dedede;
   }
-  .main .container .login .login_back .login_switch .switch_button.active {
+  .main .container .login .login_back .login_switch .switch_button.hover {
     border-bottom: 4px solid #735cff;
     color: black;
   }

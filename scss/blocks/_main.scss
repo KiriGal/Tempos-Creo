@@ -570,7 +570,7 @@
 
 
                     .features_title {
-                        font-size: 4vh;
+                        font-size: 3vh;
                         justify-self: center;
                     }
                     .features_body {
@@ -791,7 +791,7 @@
                             color: $minorTextColor;
                             border-bottom: 1px solid $minorTextColor;
                             
-                            &.active{
+                            &.hover{
                                 border-bottom: 4px solid $secondBackColor;
                                 color: black;
                             }

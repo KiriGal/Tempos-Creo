@@ -30,10 +30,20 @@ const getData = () => {
                 </div>
             </div>`;
         const swiper = new Swiper('.swiper', {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 30,
             autoplay: {
                 delay: 2000
+            },
+            breakpoints: {
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 20
+                },
+                767: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                }
             },
             loop: true,
         });

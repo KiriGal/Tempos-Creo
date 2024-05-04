@@ -1,3 +1,7 @@
+$headSize: calc(0px + 64 * (100vw / 1440));
+$secondHeadSize: calc(0px + 32 * (100vw / 1440));
+$paragraphSize: calc(0px + 16 * (100vw / 1440));
+
 .main {
     overflow: hidden;
     position: relative;
@@ -29,6 +33,7 @@
                     width: 40%;
                     float: left;
                     z-index: 4;
+
                 }
                 &:last-child {
                     width: 60%;
@@ -36,7 +41,7 @@
                     z-index: 4;
                 }
                 .findWatch_title {
-                    font-size: 5vh;
+                    font-size: $headSize;
                     margin-bottom: 20px;
                 }
                 .findWatch_ref {
@@ -45,7 +50,7 @@
                     color: $ButtonTextColor;
                     padding: 20px 10px 20px 10px;
                     border-radius: 5px;
-                    font-size: 2vh;
+                    font-size: $secondHeadSize;
                 }
                 .findWatch_image {
                     transform: scale(1.1);
@@ -66,7 +71,7 @@
                 justify-content: center;
 
                 .features_title {
-                    font-size: 5vh;
+                    font-size: $headSize;
                 }
                 .features_body {
                     display: flex;
@@ -88,20 +93,20 @@
 
                             .features_block_item {
                                 .features_title {
-                                    font-size: 3vh;
+                                    font-size: $secondHeadSize;
                                 }
                                 .features_paragraph {
-                                    font-size: 2vh;
+                                    font-size: $paragraphSize;
                                     color: #939393;
                                     line-height: 1.3em;
                                 }
                             }
                         }
                         .features_title {
-                            font-size: 3vh;
+                            font-size: $secondHeadSize;
                         }
                         .features_paragraph {
-                            font-size: 2vh;
+                            font-size: $paragraphSize;
                             color: #939393;
                             line-height: 1.3em;
                         }
@@ -137,7 +142,7 @@
                     height: 100%;
                 }
                 .mission_title {
-                    font-size: 6vh;
+                    font-size: $headSize;
                     color: #ececec;
                 }
                 .mission_paragraph {
@@ -154,7 +159,7 @@
                     color: $ButtonTextColor;
                     padding: 20px 10px 20px 10px;
                     border-radius: 5px;
-                    font-size: 2vh;
+                    font-size: $paragraphSize;
                 }
             }
         }
@@ -183,12 +188,12 @@
                         width: 500px;
 
                         .watches_title {
-                            font-size: 4vh;
+                            font-size: $secondHeadSize;
                             margin-bottom: 10px;
                         }
                         .watches_paragraph {
                             color: #939393;
-                            font-size: 2vh;
+                            font-size: $paragraphSize;
                             line-height: 1.3em;
                         }
                     }
@@ -247,12 +252,12 @@
                     .aboutUs_image {
                     }
                     .aboutUs_title {
-                        font-size: 4vh;
+                        font-size: $secondHeadSize;
                         white-space: nowrap;
                         margin-bottom: 10px;
                     }
                     .aboutUs_paragraph {
-                        font-size: 2vh;
+                        font-size: $paragraphSize;
                         color: #939393;
                         line-height: 1.3em;
                     }
@@ -290,7 +295,7 @@
                     .switch_button{
                         flex-basis: 50%;
                         padding: 5px 10px 5px 10px;
-                        font-size: 2vh;
+                        font-size: $paragraphSize;
                         white-space: nowrap;
                         color: $minorTextColor;
                         border-bottom: 1px solid $minorTextColor;
@@ -302,7 +307,7 @@
                     }
                 }
                 .login_title{
-                    font-size: 6vh;
+                    font-size: $headSize;
                     margin-bottom: 75px;
                     margin-top: 20px;
                     white-space: nowrap;
@@ -326,7 +331,7 @@
                     }
                     .login_button{
                         margin-top: 50px;
-                        font-size: 2vh;
+                        font-size: $paragraphSize;
                         background-color: $secondBackColor;
                         color: $ButtonTextColor;
                         padding: 15px 50px 15px 50px;
@@ -359,13 +364,16 @@
                 padding: 40px;
 
                 .basket_title{
-                    font-size: 6vh;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    font-size: $headSize;
                     margin-bottom: 75px;
                     margin-top: 20px;
                     white-space: wrap;
 
                     &:last-child{
-                        font-size: 2vh;
+                        font-size: $paragraphSize;
                         color: red;
                     }
                 }
@@ -377,7 +385,8 @@
             justify-content: center;
             align-items: center;
             background-color: $secondBackColor;
-            min-height: 500px;
+            min-height: auto;
+
             
             .about_back{
                 display: flex;
@@ -393,14 +402,14 @@
                 padding: 40px;
 
                 .about_title{
-                    font-size: 6vh;
+                    font-size: $headSize;
                     margin-bottom: 20px;
                 }
                 .about_body{
 
                     .about_paragraph{
                         color: #7d7d7d;
-                        font-size: 2.5vh;
+                        font-size: $paragraphSize;
                         line-height: 1.3em;
                         margin-bottom: 10px;
                     }
@@ -430,7 +439,7 @@
                     justify-content: center;
 
                     .catalog_title{
-                        font-size: 6vh;
+                        font-size: $headSize;
                         color: $mainTextColor;
                         margin-bottom: 1.6%;
                     }
@@ -439,6 +448,7 @@
                     }
                 }
                 .catalog_select{
+                    font-size: $paragraphSize;
                     margin: 30px 0;
                     background-color: #eeeff2;
                     color: #939393;
@@ -447,7 +457,6 @@
                     border: none;
 
                     .catalog_option{
-
                     }
                 }
                 .catalog_list{
@@ -455,7 +464,7 @@
                     flex-direction: row;
                     flex-wrap: wrap;
                     justify-content: space-between;
-                    max-width: 70%;
+                    max-width: 90%;
 
                     .catalog_list_item{
                         display: flex;
@@ -469,7 +478,7 @@
 
                         }
                         .catalog_title{
-
+                            font-size: $paragraphSize;
                         }
                         .catalog_price{
 
@@ -486,15 +495,511 @@
 
                         .catalog_button{
                             padding: 10px;
-                            font-size: 2vh;
+                            font-size: $paragraphSize;
                             white-space: nowrap;
                             color: $minorTextColor;
                             border-radius: 5px;
                             background-color: #eeeff2;
+                            font-size: $paragraphSize;
 
                             &.active{
                                 color: $mainTextColor;
                                 background-color: $secondBackColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .main {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        margin-top: 50px;
+        background-color: $mainTextColor;
+        z-index: 0;
+
+        .container {
+            max-width: 100%;
+            margin-inline: auto;
+
+            .findWatch {
+                display: flex;
+                position: relative;
+                align-items: center;
+                height: auto;
+
+                .findWatch_item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    height: auto;
+
+                    &:first-child {
+                        width: 40%;
+                        float: left;
+                        z-index: 4;
+                    }
+                    &:last-child {
+                        width: 60%;
+                        float: right;
+                        z-index: 4;
+                    }
+                    .findWatch_title {
+                        font-size: $headSize;
+                    }
+                    .findWatch_ref {
+                        display: block;
+                        background-color: $secondBackColor;
+                        color: $ButtonTextColor;
+                        padding: 20px 10px 20px 10px;
+                        border-radius: 5px;
+                        font-size: $secondHeadSize;
+                    }
+                    .findWatch_image {
+                    }
+                }
+            }
+            .features {
+                max-width: 96%;
+                margin-inline: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 60px;
+
+                .features_item {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    .features_title {
+                        justify-self: center;
+                    }
+                    .features_body {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: space-between;
+                        width: 96%;
+
+                        .features_body_item {
+                            flex-basis: 49%;
+                            align-items: center;
+                            align-content: center;
+
+
+                            .features_title {
+                                font-size: $secondHeadSize;
+                            }
+                            .features_paragraph {
+                                font-size: $paragraphSize;
+                                color: #939393;
+                                line-height: 1.3em;
+                            }
+                            .features_image {
+                                transform: scale(1.2);
+                                width: 100%;
+                                min-width: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+            .mission {
+                display: flex;
+                background-color: black;
+                justify-content: space-between;
+                overflow: hidden;
+                margin-top: 30px;
+    
+                .mission_item {
+                    flex-basis: 40%;
+                    align-content: center;
+                    align-items: center;
+                    justify-content: center;
+    
+                    &:first-child {
+                    }
+                    &:last-child {
+                        margin-right: 50px;
+                    }
+                    .mission_image {
+                        transform: scale(1);
+                        height: 100%;
+                    }
+                    .mission_title {
+                        font-size: $headSize;
+                        color: #ececec;
+                    }
+                    .mission_paragraph {
+                        display: block;
+                        margin-top: 40px;
+                        color: #ffffff;
+                        line-height: 1.4em;
+                        width: 80%;
+                    }
+                    .mission_ref {
+                        margin-top: 20px;
+                        display: inline-block;
+                        background-color: $secondBackColor;
+                        color: $ButtonTextColor;
+                        padding: 20px 10px 20px 10px;
+                        border-radius: 5px;
+                        font-size: $paragraphSize;
+                    }
+                }
+            }
+            .watches {
+                background-color: #f4f4f4;
+
+                .container {
+                    max-width: 96%;
+                    margin-inline: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    overflow: hidden;
+                    padding-top: 30px;
+                    flex-direction: column;
+
+                    .watches_item {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .watches_block {
+                            margin-bottom: 50px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            width: 500px;
+
+                            .watches_title {
+                                font-size: $headSize;
+                            }
+                            .watches_paragraph {
+                                color: #939393;
+                                font-size: $secondHeadSize;
+                                line-height: 1.3em;
+                            }
+                        }
+                        .watches_slider {
+                            .swiper {
+                                width: 100%;
+                                height: 100%;
+
+                                .swiper-slide {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    align-content: center;
+                                    width: 300px;
+
+                                    .image {
+                                        transform: scale(1);
+                                        border-radius: 5px;
+                                    }
+                                    .title {
+                                        font-size: $secondHeadSize;
+                                    }
+                                    .price {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .basket{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: $secondBackColor;
+                min-height: 500px;
+    
+                .basket_back{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #ffffff;
+                    min-width: 60%;
+                    max-width: 90%;
+                    min-height: 500px;
+                    margin: 60px 0px 60px 0px;
+                    border-radius: 5px;
+                    padding: 40px;
+    
+                    .basket_title{
+                        font-size: $headSize;
+                        margin-bottom: 75px;
+                        margin-top: 20px;
+                        white-space: wrap;
+    
+                        &:last-child{
+                            font-size: $secondHeadSize;
+                            color: red;
+                        }
+                    }
+                }
+            }
+            .about{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: $secondBackColor;
+                min-height: 500px;
+                
+                .about_back{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    background-color: #ffffff;
+                    min-width: 90%;
+                    max-width: 90%;
+                    min-height: 500px;
+                    margin: 60px 0px 60px 0px;
+                    border-radius: 5px;
+                    padding: 40px;
+    
+                    .about_title{
+                        font-size: $headSize;
+                        margin-bottom: 20px;
+                    }
+                    .about_body{
+    
+                        .about_paragraph{
+                            color: #7d7d7d;
+                            font-size: $secondHeadSize;
+                            line-height: 1.3em;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .aboutUs {
+                padding-top: 100px;
+                background-color: #f4f4f4;
+                padding-bottom: 50px;
+
+                .container {
+                    max-width: 96%;
+                    margin-inline: auto;
+                    display: flex;
+                    justify-content: space-around;
+                    overflow: hidden;
+                    padding-top: 30px;
+                    flex-direction: row;
+
+                    .aboutUs_item {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        &:first-child {
+                            flex-basis: 30%;
+                        }
+                        &:last-child {
+                            flex-basis: 50%;
+                        }
+                        .aboutUs_image {
+                        }
+                        .aboutUs_title {
+                            font-size: $headSize;
+                            white-space: nowrap;
+                            margin-bottom: 10px;
+                        }
+                        .aboutUs_paragraph {
+                            font-size: $secondHeadSize;
+                            color: #939393;
+                            line-height: 1.3em;
+                        }
+                    }
+                }
+            }
+            .login{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: $secondBackColor;
+                min-height: 500px;
+    
+                .login_back{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #ffffff;
+                    min-width: 60%;
+                    min-height: 500px;
+                    margin: 60px 0px 60px 0px;
+                    border-radius: 5px;
+                    padding: 40px;
+                    
+    
+                    .login_switch{
+                        width: 80%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        
+                        .switch_button{
+                            flex-basis: 50%;
+                            padding: 5px 10px 5px 10px;
+                            font-size: $secondHeadSize;
+                            white-space: nowrap;
+                            color: $minorTextColor;
+                            border-bottom: 1px solid $minorTextColor;
+                            
+                            &.hover{
+                                border-bottom: 4px solid $secondBackColor;
+                                color: black;
+                            }
+                        }
+                    }
+                    .login_title{
+                        font-size: $headSize;
+                        margin-bottom: 75px;
+                        margin-top: 20px;
+                        white-space: nowrap;
+                    }
+                    .login_form{
+                        width: 90%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+    
+                        .login_input{
+                            width: 90%;
+                            padding: 20px;
+                            margin: 8px;
+                            border-radius: 5px;
+                            border: 1px solid $minorTextColor;
+                            color: black;
+                            animation-name: show;
+                            animation-duration: 1s;
+                        }
+                        .login_button{
+                            margin-top: 50px;
+                            font-size: $secondHeadSize;
+                            background-color: $secondBackColor;
+                            color: $ButtonTextColor;
+                            padding: 15px 50px 15px 50px;
+                            border-radius: 5px;
+                            animation-name: show;
+                            animation-duration: 1s;
+                        }
+                    }
+                }
+            }
+            .catalog{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                .catalog_item{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    .catalog_head{
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 10%;
+                        width: 100%;
+                        background-color: $secondBackColor;
+                        min-height: 200px;
+                        align-items: flex-start;
+                        justify-content: center;
+    
+                        .catalog_title{
+                            font-size: $headSize;
+                            color: $mainTextColor;
+                            margin-bottom: 1.6%;
+                        }
+                        .catalog_paragraph{
+                            color: $mainTextColor;
+                        }
+                    }
+                    .catalog_select{
+                        font-size: $secondHeadSize;
+                        margin: 30px 0;
+                        background-color: #eeeff2;
+                        color: #939393;
+                        padding: 15px;
+                        border-radius: 5px;
+                        border: none;
+    
+                        .catalog_option{
+    
+                        }
+                    }
+                    .catalog_list{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: center;
+                        align-content: center;
+                        max-width: 90%;
+                        margin-inline: auto;
+    
+                        .catalog_list_item{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-content: center;
+                            align-items: center;
+                            width: 48%;
+    
+                            .catalog_image{
+                                border-radius: 5px;
+    
+                            }
+                            .catalog_title{
+                                font-size: $secondHeadSize;
+                            }
+                            .catalog_price{
+    
+                            }
+                        }
+                    }
+                    .catalog_pagination{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        
+                        .catalog_block{
+    
+                            .catalog_button{
+                                padding: 10px;
+                                font-size: $paragraphSize;
+                                white-space: nowrap;
+                                color: $minorTextColor;
+                                border-radius: 5px;
+                                background-color: #eeeff2;
+                                font-size: $secondHeadSize;
+    
+                                &.active{
+                                    color: $mainTextColor;
+                                    background-color: $secondBackColor;
+                                }
                             }
                         }
                     }
@@ -540,7 +1045,7 @@
                         z-index: 4;
                     }
                     .findWatch_title {
-                        font-size: 3vh;
+                        font-size: $headSize;
                     }
                     .findWatch_ref {
                         display: block;
@@ -548,7 +1053,7 @@
                         color: $ButtonTextColor;
                         padding: 20px 10px 20px 10px;
                         border-radius: 5px;
-                        font-size: 2vh;
+                        font-size: $secondHeadSize;
                     }
                     .findWatch_image {
                     }
@@ -570,7 +1075,6 @@
 
 
                     .features_title {
-                        font-size: 3vh;
                         justify-self: center;
                     }
                     .features_body {
@@ -591,10 +1095,10 @@
                             }
 
                             .features_title {
-                                font-size: 3vh;
+                                font-size: $headSize;
                             }
                             .features_paragraph {
-                                font-size: 2vh;
+                                font-size: $secondHeadSize;
                                 color: #939393;
                                 line-height: 1.3em;
                             }
@@ -634,7 +1138,7 @@
                         height: 100%;
                     }
                     .mission_title {
-                        font-size: 5vh;
+                        font-size: $headSize;
                         color: #ececec;
                     }
                     .mission_paragraph {
@@ -651,7 +1155,7 @@
                         color: $ButtonTextColor;
                         padding: 20px 10px 20px 10px;
                         border-radius: 5px;
-                        font-size: 2vh;
+                        font-size: $secondHeadSize;
                     }
                 }
             }
@@ -680,11 +1184,11 @@
                             width: 500px;
 
                             .watches_title {
-                                font-size: 3vh;
+                                font-size: $headSize;
                             }
                             .watches_paragraph {
                                 color: #939393;
-                                font-size: 1.5vh;
+                                font-size: $secondHeadSize;
                                 line-height: 1.3em;
                             }
                         }
@@ -706,7 +1210,7 @@
                                         border-radius: 5px;
                                     }
                                     .title {
-                                        font-size: 2vh;
+                                        font-size: $headSize;
                                     }
                                     .price {
                                     }
@@ -744,12 +1248,12 @@
                         .aboutUs_image {
                         }
                         .aboutUs_title {
-                            font-size: 3vh;
+                            font-size: $headSize;
                             white-space: nowrap;
                             margin-bottom: 10px;
                         }
                         .aboutUs_paragraph {
-                            font-size: 1.5vh;
+                            font-size: $secondHeadSize;
                             color: #939393;
                             line-height: 1.3em;
                         }
@@ -778,7 +1282,7 @@
                     
     
                     .login_switch{
-                        width: 40%;
+                        width: 80%;
                         display: flex;
                         flex-direction: row;
                         justify-content: space-between;
@@ -786,7 +1290,7 @@
                         .switch_button{
                             flex-basis: 50%;
                             padding: 5px 10px 5px 10px;
-                            font-size: 2vh;
+                            font-size: $secondHeadSize;
                             white-space: nowrap;
                             color: $minorTextColor;
                             border-bottom: 1px solid $minorTextColor;
@@ -798,7 +1302,7 @@
                         }
                     }
                     .login_title{
-                        font-size: 4vh;
+                        font-size: $headSize;
                         margin-bottom: 75px;
                         margin-top: 20px;
                         white-space: nowrap;
@@ -822,13 +1326,114 @@
                         }
                         .login_button{
                             margin-top: 50px;
-                            font-size: 2vh;
+                            font-size: $secondHeadSize;
                             background-color: $secondBackColor;
                             color: $ButtonTextColor;
                             padding: 15px 50px 15px 50px;
                             border-radius: 5px;
                             animation-name: show;
                             animation-duration: 1s;
+                        }
+                    }
+                }
+            }
+            .catalog{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                .catalog_item{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    .catalog_head{
+                        display: flex;
+                        flex-direction: column;
+                        padding-left: 10%;
+                        width: 100%;
+                        background-color: $secondBackColor;
+                        min-height: 200px;
+                        align-items: flex-start;
+                        justify-content: center;
+    
+                        .catalog_title{
+                            font-size: $headSize;
+                            color: $mainTextColor;
+                            margin-bottom: 1.6%;
+                        }
+                        .catalog_paragraph{
+                            color: $mainTextColor;
+                        }
+                    }
+                    .catalog_select{
+                        font-size: $headSize;
+                        margin: 30px 0;
+                        background-color: #eeeff2;
+                        color: #939393;
+                        padding: 15px;
+                        border-radius: 5px;
+                        border: none;
+    
+                        .catalog_option{
+    
+                        }
+                    }
+                    .catalog_list{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        align-content: center;
+                        max-width: 90%;
+                        margin-inline: auto;
+    
+                        .catalog_list_item{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-content: center;
+                            align-items: center;
+                            width: 80%;
+    
+                            .catalog_image{
+                                border-radius: 5px;
+    
+                            }
+                            .catalog_title{
+                                font-size: $headSize;
+                
+                            }
+                            .catalog_price{
+    
+                            }
+                        }
+                    }
+                    .catalog_pagination{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        
+                        .catalog_block{
+    
+                            .catalog_button{
+                                padding: 10px;
+                                font-size: $paragraphSize;
+                                white-space: nowrap;
+                                color: $minorTextColor;
+                                border-radius: 5px;
+                                background-color: #eeeff2;
+                                font-size: $headSize;
+    
+                                &.active{
+                                    color: $mainTextColor;
+                                    background-color: $secondBackColor;
+                                }
+                            }
                         }
                     }
                 }
